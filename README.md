@@ -1,4 +1,4 @@
 # OCR
 Swedish newspapers 1818–1845 
 \
-Total number of lines: 
+Total number of lines: 6120 
