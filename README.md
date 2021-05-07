@@ -1,3 +1,3 @@
 Swedish newspapers 1818–1904 
 \
-Segmented lines: 7045 
+Total number of text lines: 8 413 
