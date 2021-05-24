@@ -1,5 +1,24 @@
 
 
 
+Voting with 5 models trained using the network:
+--network=cnn=80:3x3,pool=2x2,cnn=100:3x3,pool=2x2,lstm=200,dropout=0.5,lstm=200,dropout=0.5 
+
+Got mean normalized label error rate of 2.57% (2153 errs, 83742 total chars, 2174 sync errs)
+GT       PRED     COUNT    PERCENT   
+{ä}      {a}           118      5.43%
+{å}      {ä}            58      2.67%
+{ö}      {o}            52      2.39%
+{”}      {''}           46      4.23%
+{å}      {a}            34      1.56%
+{n}      {u}            31      1.43%
+{ſ}      {f}            29      1.33%
+{ä}      {å}            22      1.01%
+{r}      {t}            22      1.01%
+{f}      {ſ}            22      1.01%
+The remaining but hidden errors make up 77.92%
+
+
+
 
 
